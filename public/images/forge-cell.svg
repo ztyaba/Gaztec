@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f97316" stop-opacity="0.9" />
+      <stop offset="50%" stop-color="#facc15" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.85" />
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f8fafc" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.05" />
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="800" fill="#0f172a" />
+  <circle cx="350" cy="300" r="260" fill="url(#glow)" />
+  <path d="M150 620 L380 120 L580 160 L430 680 Z" fill="url(#grad)" opacity="0.8" />
+  <path d="M520 640 L760 140 L970 200 L760 720 Z" fill="url(#grad)" opacity="0.65" />
+  <g fill="#38bdf8" opacity="0.45">
+    <circle cx="980" cy="160" r="18" />
+    <circle cx="180" cy="200" r="10" />
+    <circle cx="1040" cy="620" r="14" />
+    <circle cx="620" cy="100" r="12" />
+  </g>
+  <g stroke="#f1f5f9" stroke-width="4" stroke-linecap="round" opacity="0.3">
+    <line x1="120" y1="680" x2="1080" y2="680" />
+    <line x1="180" y1="100" x2="1020" y2="100" />
+  </g>
+</svg>

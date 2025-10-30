@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  background: radial-gradient(circle at 20% 20%, rgba(56, 189, 248, 0.12), transparent 60%),
+    radial-gradient(circle at 80% 0%, rgba(250, 204, 21, 0.1), transparent 50%),
+    #101418;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.section-title {
+  @apply text-3xl md:text-4xl font-semibold tracking-tight;
+}
+
+.section-subtitle {
+  @apply text-lg text-slate-300 max-w-2xl;
+}
+
+.gradient-border {
+  position: relative;
+}
+
+.gradient-border::before {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  border-radius: inherit;
+  background: linear-gradient(120deg, rgba(56, 189, 248, 0.6), rgba(250, 204, 21, 0.4), rgba(249, 115, 22, 0.6));
+  z-index: -1;
+  opacity: 0.65;
+}
+
+.card-surface {
+  @apply bg-slate-900/60 backdrop-blur-xl border border-white/10 shadow-panel;
+}
+
+.button-primary {
+  @apply inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-forge-ember to-forge-gold px-6 py-3 text-base font-semibold text-slate-950 shadow-glow transition hover:opacity-90;
+}
+
+.button-outline {
+  @apply inline-flex items-center gap-2 rounded-full border border-slate-700/60 px-6 py-3 text-base font-semibold text-white transition hover:border-forge-ember hover:text-forge-ember;
+}
