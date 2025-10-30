@@ -12,6 +12,10 @@ body {
     radial-gradient(circle at 90% 0%, rgba(79, 70, 229, 0.16), transparent 62%),
     radial-gradient(circle at 50% 90%, rgba(14, 165, 233, 0.12), transparent 65%),
     #030712;
+    radial-gradient(circle at 10% -10%, rgba(249, 115, 22, 0.16), transparent 55%),
+    radial-gradient(circle at 85% 0%, rgba(56, 189, 248, 0.12), transparent 60%),
+    radial-gradient(circle at 50% 90%, rgba(250, 204, 21, 0.08), transparent 65%),
+    #080b10;
 }
 
 a {
@@ -29,6 +33,7 @@ a {
 
 .section-eyebrow {
   @apply text-xs font-semibold uppercase tracking-[0.45em] text-slate-400; 
+  @apply text-xs font-semibold uppercase tracking-[0.4em] text-forge-ember;
 }
 
 .gradient-border {
