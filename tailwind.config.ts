@@ -21,7 +21,7 @@ const config: Config = {
         sans: ['var(--font-plus-jakarta)', 'system-ui', 'sans-serif']
       },
       boxShadow: {
-        glow: '0 0 30px rgba(249, 115, 22, 0.35)',
+        glow: '0 0 35px rgba(236, 72, 153, 0.35)',
         panel: '0 30px 80px rgba(15, 23, 42, 0.35)'
       }
     }

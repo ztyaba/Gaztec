@@ -28,10 +28,14 @@ export default function Header() {
   }, [pathname]);
 
   return (
-    <header className={`fixed inset-x-0 top-0 z-50 transition ${scrolled ? 'backdrop-blur-xl bg-slate-950/70 border-b border-white/10' : 'bg-transparent'}`}>
-      <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
+    <header
+      className={`fixed inset-x-0 top-0 z-50 transition ${
+        scrolled ? 'border-b border-white/10 bg-slate-950/70 backdrop-blur-xl' : 'bg-transparent'
+      }`}
+    >
+      <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8">
         <Link href="/" className="flex items-center gap-3">
-          <span className="flex h-11 w-11 items-center justify-center rounded-2xl bg-gradient-to-br from-forge-ember to-forge-frost shadow-glow text-xl font-bold text-slate-950">
+          <span className="flex h-11 w-11 items-center justify-center rounded-2xl bg-gradient-to-br from-rose-500 to-indigo-500 text-xl font-bold text-white shadow-glow">
             GZ
           </span>
           <div>
@@ -44,7 +48,7 @@ export default function Header() {
             <Link
               key={item.name}
               href={item.href}
-              className={`transition hover:text-forge-ember ${pathname === item.href ? 'text-forge-ember' : 'text-slate-200'}`}
+              className={`transition hover:text-white ${pathname === item.href ? 'text-white' : 'text-slate-200'}`}
             >
               {item.name}
             </Link>
