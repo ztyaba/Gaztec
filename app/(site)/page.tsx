@@ -1,5 +1,6 @@
 import Hero from '@/components/Hero';
 import ServicesSection from '@/components/ServicesSection';
+import StrategicPillars from '@/components/StrategicPillars';
 import IndustriesSection from '@/components/IndustriesSection';
 import ProcessTimeline from '@/components/ProcessTimeline';
 import CapabilitiesGrid from '@/components/CapabilitiesGrid';
@@ -12,6 +13,7 @@ export default function Home() {
     <div>
       <Hero />
       <ServicesSection />
+      <StrategicPillars />
       <IndustriesSection />
       <ProcessTimeline />
       <CapabilitiesGrid />

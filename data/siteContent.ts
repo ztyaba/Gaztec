@@ -20,6 +20,32 @@ export const heroContent = {
   ]
 };
 
+export const partnerLogos = [
+  'StratLift Aerospace',
+  'VoltRise Energy',
+  'Helios Turbine Works',
+  'Axiom Orbital Systems',
+  'Nexar Robotics'
+];
+
+export const heroHighlights = [
+  {
+    title: 'Hypersonic-grade forging intelligence',
+    description:
+      'Adaptive thermal profiles and billet analytics maintain microstructure alignment for the harshest aero and defense environments.'
+  },
+  {
+    title: 'Digital cell telemetry in real time',
+    description:
+      'Sensors stream furnace, press, and machining data into a unified digital twin dashboard for instant decision making.'
+  },
+  {
+    title: 'Dedicated mission assurance pods',
+    description:
+      'Cross-functional teams align metallurgy, quality, and supply chain from first article through sustained production.'
+  }
+];
+
 export const services = [
   {
     name: 'Closed-Die Forging',
@@ -41,6 +67,39 @@ export const services = [
       'Metallurgical testing, failure analysis, and alloy development led by a dedicated research team.',
     highlights: ['Nadcap accredited lab', 'Mechanical & chemical testing', 'Finite element analysis'],
     icon: '🧪'
+  }
+];
+
+export const strategicPillars = [
+  {
+    title: 'Design Intelligence',
+    description:
+      'Collaborative DFM and simulation sprints remove uncertainty before the first billet is heated.',
+    bullets: [
+      'Integrated metallurgy and finite element modeling',
+      'Rapid prototyping with additive-assisted preforms',
+      'Qualification playbooks tailored to your program'
+    ]
+  },
+  {
+    title: 'Precision Operations',
+    description:
+      'Closed-loop press automation couples with advanced machining cells for consistent, repeatable outputs.',
+    bullets: [
+      '11,000-ton servo press fleet with adaptive die heating',
+      'In-line metrology and SPC dashboards for every run',
+      'Automated tool life monitoring and predictive maintenance'
+    ]
+  },
+  {
+    title: 'Sustained Partnership',
+    description:
+      'Transparent communication and 24/7 visibility keep stakeholders aligned at every stage.',
+    bullets: [
+      'Secure customer portal with live telemetry and documentation',
+      'Dedicated program management pods with escalation paths',
+      'Lifecycle support from spares to in-service sustainment'
+    ]
   }
 ];
 
@@ -90,6 +149,24 @@ export const capabilities = [
   'Heat treatment, shot peening, and surface enhancement',
   'Nadcap, AS9100D, ISO 9001:2015 certified quality labs',
   'Digital twin simulation and process analytics'
+];
+
+export const operationsMetrics = [
+  {
+    value: '72"',
+    label: 'Max preform diameter',
+    description: 'Supports large structural rings, domes, and turbine discs.'
+  },
+  {
+    value: '14 hrs',
+    label: 'Average lead time saved',
+    description: 'Integrated machining and finishing remove transfer delays.'
+  },
+  {
+    value: '99.3%',
+    label: 'Reliability score',
+    description: 'Measured across three-year delivery performance benchmarks.'
+  }
 ];
 
 export const testimonials = [
